@@ -3,7 +3,7 @@ zuul:
   ignoredServices: '*'
   routes:
     ota-service: /deviceservice/**
-    logser-service: /logserservice/**
+    logser-service: /logser/**
 feign:
   hystrix:
     enabled: true
