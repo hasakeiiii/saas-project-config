@@ -2,8 +2,8 @@ zuul:
   prefix: /api
   ignoredServices: '*'
   routes:
-    ota-service: /otaservice/**
-    logser-service: /logser/**
+    ota-service: /deviceservice/**
+    logser-service: /logserservice/**
 feign:
   hystrix:
     enabled: true
